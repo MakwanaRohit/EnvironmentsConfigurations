@@ -1,0 +1,23 @@
+//
+//  Prod.xcconfig
+//  EnvironmentsConfigurations
+//
+//  Created by rohitmakwana on 04/03/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Prod
+
+// Server url
+
+// Added $() because, double slash(//) it will be consider as comment and you will not able to fetch full server_url.
+
+server_url = https:/$()/myapp.prod.com
+
+// App name
+app_name = EnviromentSetup(PROD)
+
+// Bundle identifier
+app_bundle_identifier = com.enviromen.prod
